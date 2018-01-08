@@ -5,6 +5,8 @@ RUN apt-get update \
 
 WORKDIR /app
 
+EXPOSE 8192/tcp
+
 CMD rm -rf dip-site4 >/dev/null 2>&1 \
 ; git clone "https://github.com/Lelenaic/dip-site4" \
 ; service mysql start \

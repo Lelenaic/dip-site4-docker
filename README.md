@@ -1,1 +1,1 @@
-docker
+To get the last version of the master branch, just restart the container.
